@@ -13,17 +13,18 @@ var regex = /^[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{2}$/;
 alert(regex.test(birthDate));
 */
 
-//Part 3 THE ONE I DON'T UNDERSTAND!!!!!
+//Part 3
 /*
 var postalCode = prompt("What's your postal code?");
-var regex = /^([0-9]{5}) | ([0-9]{5}[09]{2})$/;
+var regex = /^([0-9]{5})|([0-9]{5}-[09]{4})$/;
 alert(regex.test(postalCode));
 */
 
 //Part 4
 /*
 var stateAbbreviation = prompt("What's your state abbreviation?");
-if (stateAbbreviation === )
+var regex = /^[A-Z]{2}$/
+alert(regex.test(stateAbbreviation));
 */
 
 //Part 5
